@@ -12,7 +12,7 @@ const dev = path.join(demoDist, 'components')
 const dist = path.resolve(__dirname, '../miniprogram_dist')
 
 module.exports = {
-  entry: ['index'],
+  entry: ['hello-world/index'],
 
   isDev,
   isWatch,
@@ -63,5 +63,5 @@ module.exports = {
     }
   },
 
-  copy: ['./images'], // 将会复制到目标目录
+  copy: ['../images'], // 将会复制到目标目录
 }

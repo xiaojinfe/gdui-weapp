@@ -1,6 +1,6 @@
 # miniprogram-custom-component
 
-小程序自定义组件开发模板：
+基于微信小程序官方模板构建。
 
 * 支持 less 编写 wxss
 * 使用 webpack 构建 js
@@ -8,20 +8,16 @@
 * 支持 eslint
 * 支持多入口构建
 
-## 使用
-
-* 使用[命令行工具](https://github.com/wechat-miniprogram/miniprogram-cli)进行初始化
-* 直接从 github 上 clone 下来
-
 ## 开发
 
+1. 从本仓库clone到本地
 1. 安装依赖：
 
 ```
 npm install
 ```
 
-2. 执行命令：
+1. 执行命令：
 
 ```
 npm run dev

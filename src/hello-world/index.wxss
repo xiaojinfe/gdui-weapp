@@ -1,6 +1,6 @@
-@import "./common.wxss";
-@import "./reset.wxss";
-@import "./variables.less";
+@import "../common.wxss";
+@import "../reset.wxss";
+@import "../variables.less";
 
 .header {
   text-align: center;

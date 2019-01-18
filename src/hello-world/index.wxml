@@ -1,0 +1,13 @@
+<view class="header">
+  <image class="logo" mode="aspectFit" src="/images/logo.png"></image>
+  <view class="welcome-title">
+    {{title}}
+  </view>
+  <view class="welcome-message">
+    {{message}}
+  </view>
+</view>
+
+<view class="body">
+  <text class="tip">这是一个测试用的组件</text>
+</view>
