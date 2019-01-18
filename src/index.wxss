@@ -1,0 +1,21 @@
+@import "./common.wxss";
+@import "./reset.wxss";
+@import "./variables.less";
+
+.header {
+  text-align: center;
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+.body {
+  text-align: center;
+  border-bottom: 1rpx solid red;
+  margin-bottom: 10rpx;
+  .tip {
+    color: @primary;
+    font-size: 24rpx;
+  }
+}

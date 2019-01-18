@@ -1,0 +1,15 @@
+<view class="header">
+  <image class="logo" mode="aspectFit" src="./images/logo.png"></image>
+  <view class="welcome-title">
+    {{title}}
+  </view>
+  <view class="welcome-message">
+    {{message}}
+  </view>
+</view>
+
+<view class="body">
+  <text class="tip">可以使用下面空白区域测试你的组件</text>
+</view>
+
+<gd-hello-world>this is slot content</gd-hello-world>

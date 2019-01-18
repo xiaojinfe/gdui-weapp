@@ -1,0 +1,4 @@
+<view class="test">
+  this is test component, you text will show below
+  <slot></slot>
+</view>

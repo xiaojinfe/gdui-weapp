@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "gd-hello-world": "components/hello-world/index"
+  }
+}
